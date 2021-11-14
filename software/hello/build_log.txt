@@ -1,0 +1,1026 @@
+Child of 6180;8028
+	conhost.exe
+	C:\Windows\
+	"\??\C:\Windows\system32\conhost.exe" "0x4" 
+#
+#
+Child of 6180;68
+	cmd.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\Windows\system32\cmd.exe" "/c" "C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat" 
+#
+#
+Child of 68;3532
+	qreg.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\..\quartus\bin64\qreg.exe" 
+#
+#
+Child of 68;3532
+	qreg.exe
+	
+	
+#
+#
+Child of 68;5924
+	qreg.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\..\quartus\bin64\qreg.exe" "--jtag" 
+#
+#
+Child of 68;5924
+	qreg.exe
+	
+	
+#
+#
+Child of 68;1252
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\..\quartus\bin64\cygwin\bin\bash.exe" "-c" "'C:/intelFPGA/18.1/nios2eds/nios2_command_shell.sh" "sh" "/cygdrive/c/LDRA_Toolsuite/Compiler_spec/Eclipse_Nios_ii/Nios_ii/Build.sh'" 
+#
+#
+Child of 1252;5068
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 5068;1332
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 1332;6932
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 6932;3764
+	which.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\which.exe" 
+#
+#
+Child of 1332;6932
+	bash.exe
+	
+	
+#
+#
+Child of 6932;3764
+	which.exe
+	
+	
+#
+#
+Child of 5068;1720
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 5068;1720
+	bash.exe
+	C:\intelFPGA\18.1\nios2eds\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 1720;1828
+	bash.exe
+	C:\intelFPGA\18.1\nios2eds\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 1720;1828
+	bash.exe
+	
+	
+#
+#
+Child of 5068;6984
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 6984;8260
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 8260;988
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 988;8372
+	dirname.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\dirname.exe" 
+#
+#
+Child of 988;8372
+	dirname.exe
+	
+	
+#
+#
+Child of 6984;8260
+	bash.exe
+	
+	
+#
+#
+Child of 6984;3716
+	dirname.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\dirname.exe" 
+#
+#
+Child of 5068;8416
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 8416;7236
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 7236;3156
+	cygpath.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\cygpath.exe" 
+#
+#
+Child of 7236;3156
+	cygpath.exe
+	
+	
+#
+#
+Child of 5068;8416
+	bash.exe
+	
+	
+#
+#
+Child of 5068;7692
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 7692;332
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 332;2244
+	which.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\which.exe" 
+#
+#
+Child of 332;2244
+	which.exe
+	
+	
+#
+#
+Child of 5068;7692
+	bash.exe
+	
+	
+#
+#
+Child of 5068;8920
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 8920;6204
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 6204;248
+	cygpath.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\cygpath.exe" 
+#
+#
+Child of 6204;248
+	cygpath.exe
+	
+	
+#
+#
+Child of 5068;8920
+	bash.exe
+	
+	
+#
+#
+Child of 5068;2616
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\sh.exe" 
+#
+#
+Child of 1252;5068
+	bash.exe
+	
+	
+#
+#
+Child of 2616;9152
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\sh.exe" 
+#
+#
+Child of 9152;7672
+	make.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\bin\gnu\H-x86_64-mingw32\bin\make.exe" "clean" 
+#
+#
+Child of 7672;5304
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "cd "../hello_bsp/"; pwd" 
+#
+#
+Child of 7672;5304
+	sh.exe
+	
+	
+#
+#
+Child of 7672;8900
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 8900;8668
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 8900;8468
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 8468;5924
+	sed.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\sed.exe" 
+#
+#
+Child of 8900;8468
+	sh.exe
+	
+	
+#
+#
+Child of 8468;5924
+	sed.exe
+	
+	
+#
+#
+Child of 7672;8900
+	sh.exe
+	
+	
+#
+#
+Child of 7672;2628
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "cd "../../"; pwd" 
+#
+#
+Child of 7672;2628
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "cd "../../"; pwd" 
+#
+#
+Child of 7672;2628
+	sh.exe
+	
+	
+#
+#
+Child of 7672;3764
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 3764;1332
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 3764;1332
+	sh.exe
+	
+	
+#
+#
+Child of 3764;32
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 32;1720
+	sed.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\sed.exe" 
+#
+#
+Child of 3764;32
+	sh.exe
+	
+	
+#
+#
+Child of 32;1720
+	sed.exe
+	
+	
+#
+#
+Child of 7672;8692
+	rm.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"rm" "-f" "-r" "hello.elf" "hello.objdump" "hello.map" "obj" "obj/default/runtime" "obj/default/.force_relink" "obj/default/.force_rebuild" ".force_rebuild_all" 
+#
+#
+Child of 7672;988
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo [hello clean complete]" 
+#
+#
+Child of 7672;988
+	sh.exe
+	
+	
+#
+#
+Child of 2616;9152
+	sh.exe
+	
+	
+#
+#
+Child of 2616;8260
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\sh.exe" 
+#
+#
+Child of 8260;3140
+	make.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\bin\gnu\H-x86_64-mingw32\bin\make.exe" "all" 
+#
+#
+Child of 3140;3784
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "cd "../hello_bsp/"; pwd" 
+#
+#
+Child of 3140;3784
+	sh.exe
+	
+	
+#
+#
+Child of 3140;9132
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 9132;2128
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 9132;7916
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 7916;5484
+	sed.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\sed.exe" 
+#
+#
+Child of 9132;7916
+	sh.exe
+	
+	
+#
+#
+Child of 7916;5484
+	sed.exe
+	
+	
+#
+#
+Child of 3140;332
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "cd "../../"; pwd" 
+#
+#
+Child of 3140;332
+	sh.exe
+	
+	
+#
+#
+Child of 3140;3936
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 3936;2160
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 3936;7824
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo /cygdrive/d/linhbt/LDRA/DE0_CV_ucos | sed -e 's,^/cygdrive/\([a-zA-Z]\)/,\1:/,' -e 's,^/\([a-zA-Z]\)/,\1:/,'" 
+#
+#
+Child of 3936;2160
+	sh.exe
+	
+	
+#
+#
+Child of 7824;4988
+	sed.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\sed.exe" 
+#
+#
+Child of 3936;7824
+	sh.exe
+	
+	
+#
+#
+Child of 7824;4988
+	sed.exe
+	
+	
+#
+#
+Child of 3140;3052
+	echo.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"echo" "Info:" "Building" "../hello_bsp/" 
+#
+#
+Child of 3140;3052
+	echo.exe
+	
+	
+#
+#
+Child of 3140;8000
+	make.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make" "--no-print-directory" "-C" "../hello_bsp/" 
+#
+#
+Child of 3140;8000
+	make.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+	"C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make" "--no-print-directory" "-C" "../hello_bsp/" 
+#
+#
+Child of 8000;3148
+	pwd.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+	"pwd" 
+#
+#
+Child of 8000;3148
+	pwd.exe
+	
+	
+#
+#
+Child of 8000;3388
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "cygpath -m "/cygdrive/d/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp"" 
+#
+#
+Child of 3388;3532
+	cygpath.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\cygpath.exe" 
+#
+#
+Child of 3388;3532
+	cygpath.exe
+	
+	
+#
+#
+Child of 8000;5924
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo [BSP build complete]" 
+#
+#
+Child of 3140;8000
+	make.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make" "--no-print-directory" "-C" "../hello_bsp/" 
+#
+#
+Child of 8000;5924
+	sh.exe
+	
+	
+#
+#
+Child of 3140;5156
+	echo.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"echo" "Info:" "Compiling" "hello_world_small.cpp" "to" "obj/default/hello_world_small.o" 
+#
+#
+Child of 3140;9128
+	mkdir.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"mkdir" "-p" "obj/default" 
+#
+#
+Child of 3140;6748
+	nios2-elf-gcc.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"nios2-elf-gcc" "-xc++" "-MP" "-MMD" "-c" "-I../hello_bsp//HAL/inc" "-I../hello_bsp/" "-I../hello_bsp//drivers/inc" "-pipe" "-D__hal__" "-DALT_NO_C_PLUS_PLUS" "-DALT_NO_CLEAN_EXIT" "-Dexit(a)=_exit(a)" "-DALT_NO_EXIT" "-DALT_USE_DIRECT_DRIVERS" "-DALT_NO_INSTRUCTION_EMULATION" "-DALT_USE_SMALL_DRIVERS" "-DSMALL_C_LIB" "-DALT_SINGLE_THREADED" "-Os" "-g" "-Wall" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-o" "obj/default/hello_world_small.o" "hello_world_small.cpp" 
+#
+#
+Child of 6748;3588
+	cc1plus.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/cc1plus.exe" "-quiet" "-I" "../hello_bsp//HAL/inc" "-I" "../hello_bsp/" "-I" "../hello_bsp//drivers/inc" "-iprefix" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../lib/gcc/nios2-elf/5.3.0/" "-isysroot" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../../H-x86_64-mingw32" "-MMD" "obj/default/hello_world_small.d" "-MP" "-MQ" "obj/default/hello_world_small.o" "-D" "__hal__" "-D" "ALT_NO_C_PLUS_PLUS" "-D" "ALT_NO_CLEAN_EXIT" "-D" "exit(a)=_exit(a)" "-D" "ALT_NO_EXIT" "-D" "ALT_USE_DIRECT_DRIVERS" "-D" "ALT_NO_INSTRUCTION_EMULATION" "-D" "ALT_USE_SMALL_DRIVERS" "-D" "SMALL_C_LIB" "-D" "ALT_SINGLE_THREADED" "hello_world_small.cpp" "-quiet" "-dumpbase" "hello_world_small.cpp" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-auxbase-strip" "obj/default/hello_world_small.o" "-g" "-Os" "-Wall" "-o" "-" 
+#
+#
+Child of 6748;8492
+	as.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/as.exe" "-I" "../hello_bsp//HAL/inc" "-I" "../hello_bsp/" "-I" "../hello_bsp//drivers/inc" "-EL" "-o" "obj/default/hello_world_small.o" 
+#
+#
+Child of 6748;3588
+	cc1plus.exe
+	
+	
+#
+#
+Child of 6748;8492
+	as.exe
+	
+	
+#
+#
+Child of 3140;6748
+	nios2-elf-gcc.exe
+	
+	
+#
+#
+Child of 3140;1720
+	echo.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"echo" "Info:" "Compiling" "test.cpp" "to" "obj/default/test.o" 
+#
+#
+Child of 3140;1720
+	echo.exe
+	
+	
+#
+#
+Child of 3140;3508
+	mkdir.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"mkdir" "-p" "obj/default" 
+#
+#
+Child of 3140;3508
+	mkdir.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\obj\
+	"mkdir" "-p" "obj/default" 
+#
+#
+Child of 3140;8976
+	nios2-elf-gcc.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"nios2-elf-gcc" "-xc++" "-MP" "-MMD" "-c" "-I../hello_bsp//HAL/inc" "-I../hello_bsp/" "-I../hello_bsp//drivers/inc" "-pipe" "-D__hal__" "-DALT_NO_C_PLUS_PLUS" "-DALT_NO_CLEAN_EXIT" "-Dexit(a)=_exit(a)" "-DALT_NO_EXIT" "-DALT_USE_DIRECT_DRIVERS" "-DALT_NO_INSTRUCTION_EMULATION" "-DALT_USE_SMALL_DRIVERS" "-DSMALL_C_LIB" "-DALT_SINGLE_THREADED" "-Os" "-g" "-Wall" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-o" "obj/default/test.o" "test.cpp" 
+#
+#
+Child of 8976;6652
+	cc1plus.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/cc1plus.exe" "-quiet" "-I" "../hello_bsp//HAL/inc" "-I" "../hello_bsp/" "-I" "../hello_bsp//drivers/inc" "-iprefix" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../lib/gcc/nios2-elf/5.3.0/" "-isysroot" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../../H-x86_64-mingw32" "-MMD" "obj/default/test.d" "-MP" "-MQ" "obj/default/test.o" "-D" "__hal__" "-D" "ALT_NO_C_PLUS_PLUS" "-D" "ALT_NO_CLEAN_EXIT" "-D" "exit(a)=_exit(a)" "-D" "ALT_NO_EXIT" "-D" "ALT_USE_DIRECT_DRIVERS" "-D" "ALT_NO_INSTRUCTION_EMULATION" "-D" "ALT_USE_SMALL_DRIVERS" "-D" "SMALL_C_LIB" "-D" "ALT_SINGLE_THREADED" "test.cpp" "-quiet" "-dumpbase" "test.cpp" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-auxbase-strip" "obj/default/test.o" "-g" "-Os" "-Wall" "-o" "-" 
+#
+#
+Child of 8976;2892
+	as.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/as.exe" "-I" "../hello_bsp//HAL/inc" "-I" "../hello_bsp/" "-I" "../hello_bsp//drivers/inc" "-EL" "-o" "obj/default/test.o" 
+#
+#
+Child of 8976;6652
+	cc1plus.exe
+	
+	
+#
+#
+Child of 8976;2892
+	as.exe
+	
+	
+#
+#
+Child of 3140;8976
+	nios2-elf-gcc.exe
+	
+	
+#
+#
+Child of 3140;7672
+	true.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"true" 
+#
+#
+Child of 3140;7672
+	true.exe
+	
+	
+#
+#
+Child of 3140;3716
+	echo.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"echo" "Info:" "Linking" "hello.elf" 
+#
+#
+Child of 3140;3156
+	nios2-elf-g++.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"nios2-elf-g++" "-T../hello_bsp//linker.x" "-msys-crt0=../hello_bsp//obj/HAL/src/crt0.o" "-msys-lib=hal_bsp" "-L../hello_bsp/" "-msmallc" "-Wl,-Map=hello.map" "-Os" "-g" "-Wall" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-o" "hello.elf" "obj/default/hello_world_small.o" "obj/default/test.o" "-lm" "-msys-lib=m" 
+#
+#
+Child of 3156;2128
+	collect2.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/collect2.exe" "-plugin" "c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/liblto_plugin-0.dll" "-plugin-opt=c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/lto-wrapper.exe" "-plugin-opt=-fresolution=C:\Users\PMN-GNC\AppData\Local\Temp\ccgCGvJd.res" "-plugin-opt=-pass-through=-lgcc" "-plugin-opt=-pass-through=-lsmallc" "-plugin-opt=-pass-through=-lgcc" "-plugin-opt=-pass-through=-lhal_bsp" "-plugin-opt=-pass-through=-lm" "-plugin-opt=-pass-through=-lgcc" "--sysroot=c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../../H-x86_64-mingw32" "-EL" "-o" "hello.elf" "../hello_bsp//obj/HAL/src/crt0.o" "-L../hello_bsp/" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../../H-x86_64-mingw32/lib" "-Map=hello.map" "obj/default/hello_world_small.o" "obj/default/test.o" "-lstdc++" "-lm" "-lgcc" "--start-group" "-lsmallc" "-lgcc" "-lhal_bsp" "-lm" "--end-group" "-lgcc" "-T" "../hello_bsp//linker.x" 
+#
+#
+Child of 2128;8464
+	ld.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/bin/ld.exe" "-plugin" "c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/liblto_plugin-0.dll" "-plugin-opt=c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/lto-wrapper.exe" "-plugin-opt=-fresolution=C:\Users\PMN-GNC\AppData\Local\Temp\ccgCGvJd.res" "-plugin-opt=-pass-through=-lgcc" "-plugin-opt=-pass-through=-lsmallc" "-plugin-opt=-pass-through=-lgcc" "-plugin-opt=-pass-through=-lhal_bsp" "-plugin-opt=-pass-through=-lm" "-plugin-opt=-pass-through=-lgcc" "--sysroot=c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../../H-x86_64-mingw32" "-EL" "-o" "hello.elf" "../hello_bsp//obj/HAL/src/crt0.o" "-L../hello_bsp/" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../lib/gcc/nios2-elf/5.3.0/../../../../../H-x86_64-mingw32/nios2-elf/lib" "-Lc:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../../H-x86_64-mingw32/lib" "-Map=hello.map" "obj/default/hello_world_small.o" "obj/default/test.o" "-lstdc++" "-lm" "-lgcc" "--start-group" "-lsmallc" "-lgcc" "-lhal_bsp" "-lm" "--end-group" "-lgcc" "-T" "../hello_bsp//linker.x" 
+#
+#
+Child of 3140;3156
+	nios2-elf-g++.exe
+	
+	
+#
+#
+Child of 3140;5452
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "nios2-elf-insert hello.elf --thread_model hal --cpu_name nios2_qsys --qsys true --simulation_enabled false --id 0 --sidp 0x20041048 --timestamp 1416191880 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name DE0_CV_QSYS --quartus_project_dir "d:/linhbt/LDRA/DE0_CV_ucos" --jdi d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_SDRAM_Nios_Test.jdi --sopcinfo d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_QSYS.sopcinfo" 
+#
+#
+Child of 5452;6836
+	nios2-elf-insert.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\sdk2\bin\nios2-elf-insert.exe" "hello.elf" "--thread_model" "hal" "--cpu_name" "nios2_qsys" "--qsys" "true" "--simulation_enabled" "false" "--id" "0" "--sidp" "0x20041048" "--timestamp" "1416191880" "--stderr_dev" "jtag_uart" "--stdin_dev" "jtag_uart" "--stdout_dev" "jtag_uart" "--sopc_system_name" "DE0_CV_QSYS" "--quartus_project_dir" "d:/linhbt/LDRA/DE0_CV_ucos" "--jdi" "d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_SDRAM_Nios_Test.jdi" "--sopcinfo" "d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_QSYS.sopcinfo" 
+#
+#
+Child of 6836;4952
+	uname.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"uname" 
+#
+#
+Child of 6836;4952
+	uname.exe
+	
+	
+#
+#
+Child of 6836;7136
+	java.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelfpga/18.1/quartus/bin64\jre64\bin\java.exe" "-cp" "C:/intelfpga/18.1/nios2eds/sdk2/lib\TableLayout.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\appframework-1.03.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\beansbinding-1.2.1.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\binding-2.0.6.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.app_lib.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.editor.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.elements.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.plugin.core.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.plugin.hal.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.plugin.lwhal.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.schema.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.bsp.scripting.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.commandline.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.cpexample.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.flash.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.launch.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.swinfo.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.embeddedsw.utilities.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.entityinterfaces.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.hdlcomponent.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.hdlwriter.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.infrastructure.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.jdbcsqlite.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.jtagsimulator.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.librarian.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.megawizard2.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.minieval2.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.nios2.isa.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.nios2.rtl.trace.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.nios2.trace.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.privateinterfaces.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.qsys.blackboxmodule.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.qsys.cmsis.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.qsys.ipxact.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.qsys.ipxact.module.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.qsys.model.common.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.service.jre.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopc.generator.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopc.qsymbol.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcdocument.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcfactories.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopclibrary.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcmodel.atlantic.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcmodel.components.atlantic.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcmodel.components.tclmodule.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcmodel.embeddedsw.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcmodel.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcmodel.transforms.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcplatform.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcreport.build.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.sopcreport.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.configrom.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.designs.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.driver.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.gui.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.lightclient.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.plugin.elf.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.plugin.jtag.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.systemconsole.scripting.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.tcl.interpreter.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.tcl.ui.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.tools.exampledesigns.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.ui.ientity.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.ui.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.ui.quartus.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.util.elf.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.utilities.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\com.altera.version.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\commons-lang3-3.1.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\commons-logging-1.1.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\docking-frames-common.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\docking-frames-core.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\explicitlayout.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\guava-15.0.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\hamcrest-all-1.3.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\jacl1.3.2a.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\javasysmon.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\jaxb-api.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\jaxb-core.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\jaxb-impl.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\jline-2.12.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\jsr173_1.0_api.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\miglayout15-swing.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\mydoggy-api.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\mydoggy-plaf.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\mydoggy-res.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\org-netbeans-swing-outline-RELEASE691-sources.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\org-netbeans-swing-outline.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\swing-worker.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\velocity-1.4.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\velocity-dep-1.4.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\xbean.jar;C:/intelfpga/18.1/nios2eds/sdk2/lib\xmlbeans-2.2.0.jar;" "com.altera.util.elf.FattenELF" "hello.elf" "--thread_model" "hal" "--cpu_name" "nios2_qsys" "--qsys" "true" "--simulation_enabled" "false" "--id" "0" "--sidp" "0x20041048" "--timestamp" "1416191880" "--stderr_dev" "jtag_uart" "--stdin_dev" "jtag_uart" "--stdout_dev" "jtag_uart" "--sopc_system_name" "DE0_CV_QSYS" "--quartus_project_dir" "d:/linhbt/LDRA/DE0_CV_ucos" "--jdi" "d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_SDRAM_Nios_Test.jdi" "--sopcinfo" "d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_QSYS.sopcinfo" 
+#
+#
+Child of 6836;7136
+	java.exe
+	
+	
+#
+#
+Child of 3140;5452
+	sh.exe
+	
+	
+#
+#
+Child of 3140;4988
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "bash -c "nios2-stackreport --prefix nios2-elf- hello.elf"" 
+#
+#
+Child of 4988;5340
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 5340;6208
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 4988;5340
+	bash.exe
+	
+	
+#
+#
+Child of 6208;8232
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 6208;8232
+	bash.exe
+	C:\intelFPGA\18.1\nios2eds\bin\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 8232;2432
+	bash.exe
+	C:\intelFPGA\18.1\nios2eds\bin\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 8232;2432
+	bash.exe
+	
+	
+#
+#
+Child of 6208;240
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 240;2712
+	dirname.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\dirname.exe" 
+#
+#
+Child of 6208;240
+	bash.exe
+	
+	
+#
+#
+Child of 240;2712
+	dirname.exe
+	
+	
+#
+#
+Child of 6208;3120
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 6208;3120
+	bash.exe
+	C:\intelFPGA\18.1\nios2eds\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 6208;3120
+	bash.exe
+	
+	
+#
+#
+Child of 6208;9128
+	bash.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\bash.exe" 
+#
+#
+Child of 9128;6532
+	perl.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\perl.exe" 
+#
+#
+Child of 6208;9128
+	bash.exe
+	
+	
+#
+#
+Child of 6532;1732
+	perl.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\perl.exe" 
+#
+#
+Child of 1732;6932
+	nios2-elf-size.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\bin\gnu\H-x86_64-mingw32\bin\nios2-elf-size.exe" "hello.elf" 
+#
+#
+Child of 1732;6932
+	nios2-elf-size.exe
+	
+	
+#
+#
+Child of 6532;5208
+	perl.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\quartus\bin64\cygwin\bin\perl.exe" 
+#
+#
+Child of 5208;6548
+	nios2-elf-nm.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\bin\gnu\H-x86_64-mingw32\bin\nios2-elf-nm.exe" "--reverse-sort" "--numeric-sort" "hello.elf" 
+#
+#
+Child of 5208;6548
+	nios2-elf-nm.exe
+	
+	
+#
+#
+Child of 9128;6532
+	perl.exe
+	
+	
+#
+#
+Child of 6532;5208
+	perl.exe
+	
+	
+#
+#
+Child of 5340;6208
+	bash.exe
+	
+	
+#
+#
+Child of 3140;6652
+	echo.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"echo" "Info:" "Creating" "hello.objdump" 
+#
+#
+Child of 3140;6652
+	echo.exe
+	
+	
+#
+#
+Child of 3140;8976
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "nios2-elf-objdump --disassemble --syms --all-header --source hello.elf >hello.objdump" 
+#
+#
+Child of 8976;7672
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "nios2-elf-objdump --disassemble --syms --all-header --source hello.elf >hello.objdump" 
+#
+#
+Child of 7672;4348
+	nios2-elf-objdump.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:\intelFPGA\18.1\nios2eds\bin\gnu\H-x86_64-mingw32\bin\nios2-elf-objdump.exe" "--disassemble" "--syms" "--all-header" "--source" "hello.elf" 
+#
+#
+Child of 7672;4348
+	nios2-elf-objdump.exe
+	
+	
+#
+#
+Child of 8976;7672
+	sh.exe
+	
+	
+#
+#
+Child of 3140;8416
+	sh.exe
+	D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+	"C:/intelFPGA/18.1/quartus/bin64/cygwin/bin/sh.exe" "-c" "echo [hello build complete]" 
+#
+#
+Child of 3140;8416
+	sh.exe
+	
+	
+#
+#
+Child of 8260;3140
+	make.exe
+	
+	
+#
+#
+Child of 2616;8260
+	sh.exe
+	
+	
+#
+#
+Child of 5068;2616
+	sh.exe
+	
+	
+#
+#
+Child of 6180;68
+	cmd.exe
+	
+	
+#
+#
+Child of 68;1252
+	bash.exe
+	
+	
+#
+#
+Child of 6180;8028
+	conhost.exe
+	
+	
+#
+#

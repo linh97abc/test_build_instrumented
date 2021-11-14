@@ -1,0 +1,863 @@
+                                                                                                                       .
+                                ***********************************************************
+                                ******                                               ******
+                                ******   LDRA Testbed (R) Software Incident Report   ******
+                                ******                                               ******
+                                ******              System : hello.elf               ******
+                                ******                                               ******
+                                ******              LDRA Sir Number :                ******
+                                ******                                               ******
+                                ***********************************************************
+
+
+      Report Production
+      -----------------
+         * C/C++ LDRA Testbed Version: 9.8.7
+         * Report Produced On:  Sun Nov 14 2021 at 09:31:52
+
+      Fill in your contact details and email this file as an attachment to support@ldra.com
+      -------------------------------------------------------------------------------------
+
+      User Details
+      ------------
+         * Name: linhbt11
+         * Company: vtx
+         * Telephone Number: 
+         * Fax Number: 
+         * Email Address: 
+         * Reference Number: 
+         * Severity: [*] Project can continue
+                     [ ] Project can continue with difficulty
+                     [ ] Project has stopped
+         * Incident Description: 
+
+
+ --------------------------------------------------------------------------------
+
+                                            **********************************
+                                            *                                *
+                                            *  LDRA Testbed Results Summary  *
+                                            *                                *
+                                            **********************************
+
+
+ * No individual file selected
+ * Set contains 2 files
+
+ ========================================================================================================================================================================
+ FILE                STATIC    COMPLEX   DATA FLOW CROSSREF  INFOFLOW  DATA OBJ. MCDC PLAN INSTRUM   SEMANTIC  DYNAMIC   DATASET   PROFILE   DYNDFLOW  DIFF      DIFF COV
+ ========================================================================================================================================================================
+ D:\linhbt\LDRA\DE0_CV_ucos\software\hello\hello_world_small.cpp
+                     Y         Y         Y         Y                                       Y
+ D:\linhbt\LDRA\DE0_CV_ucos\software\hello\test.cpp
+                     Y         Y         Y         Y                                       Y
+
+
+ Current TBevolve Baseline
+ -------------------------
+ Number: 16
+ Creation Date: Sunday, November 14, 2021, 16:18:32
+
+
+ --------------------------------------------------------------------------------
+
+                                           ************************************
+                                           *                                  *
+                                           *  Analysis Configuration Details  *
+                                           *                                  *
+                                           ************************************
+
+
+ Directory Information.
+ ----------------------
+ * Installation Directory (TBED) : "C:\LDRA_Toolsuite\"
+ * Date Stamp : Sun Nov 14 09:09:51 2021
+ * Read Only : No
+
+ * Graphics Directory (GRAPHDIR) : "C:\LDRA_Toolsuite\"
+ * Date Stamp : Sun Nov 14 09:09:51 2021
+ * Read Only : No
+
+ * Permanent Workfile Directory (PERMDIR) : "C:\LDRA_Workarea\permdir\"
+ * Date Stamp : Sun Nov 14 09:31:52 2021
+ * Read Only : No
+
+ * Current Working (Start in) Directory (USERDIR) : "C:\LDRA_Workarea\"
+ * Date Stamp : Sun Nov 14 09:31:52 2021
+ * Read Only : No
+
+
+ Testbed Configuration Details.
+ ------------------------------
+ * Master Configuration File : "C:\LDRA_Workarea\permdir\ldra.cfg"
+ * Analysis Configuration File : "C:\LDRA_Workarea\permdir\ldra.012"
+ * Ini File : "C:\ProgramData\LDRA\Testbed.ini"
+ * Ini File Section : "C/C++ LDRA Testbed"
+ * Windows Directory : "C:\Windows"
+ * Date Stamp : Mon Nov 15 09:25:15 2021
+ * Read Only : No
+
+
+ Testbed Project Details.
+ ------------------------
+ * Analysis is not based upon a project.
+
+ Static Configuration Details.
+ -----------------------------
+ * Comments = TRUE.
+ * Include = TRUE.
+ * Forcedataflow = TRUE.
+ * Keep = FALSE.
+ * Shorten = TRUE.
+ * Shorten interactive include analysis enabled (display for all #include statements).
+ * Not opening system <> includes.
+ * Prompts are OFF.
+
+ Data File Information.
+ ----------------------
+ * C Penalty File (PENFILE) : "C:\LDRA_Toolsuite\c\cpen.dat"
+ * C Report File : "C:\LDRA_Toolsuite\c\creport.dat"
+ * C Standards Model : "MISRA-C:2012(Ed 3 Rev 1)"
+ * C Vals File : "C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Nios_ii_cvals.dat"
+ * C Syscalls Data File : "C:\LDRA_Toolsuite\syscalls.dat"
+
+ * C++ Penalty File (PENFILE) : "C:\LDRA_Toolsuite\cpp\cpppen.dat"
+ * C++ Report File : "C:\LDRA_Toolsuite\cpp\cppreport.dat"
+ * C++ Standards Model : "MISRA-C++:2008"
+ * C++ Vals File : "C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Nios_ii_cppvals.dat"
+ * C++ Syscalls Data File : "C:\LDRA_Toolsuite\syscalls.dat"
+
+ * Default Sysearch File : "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello.elf - Sysearch.dat"
+ * Default Sysppvar File : "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello.elf - Sysppvar.dat"
+ * Workfile Directory (WORKDIR) : "C:\LDRA_Workarea\hello.elf_tbwrkfls\"
+ * Date Stamp : Sun Nov 14 09:31:52 2021
+ * Read Only : No
+
+
+ Instrumentation Configuration Details.
+ --------------------------------------
+ * Dosnames = FALSE.
+ * Iprog Format = DOS.
+ * Preprocess Iprog = TRUE.
+ * Instrument for DO178 SCA = TRUE.
+ * System execution history in one file.
+ * Compressing execution history:
+   Structure Bitmap method
+ * Instrumented Source File Directory : "C:\LDRA_Workarea\"
+
+ * C Instrumentation Data File : "C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Nios_ii_cinstr.dat"
+ * C++ Instrumentation Data File : "C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Nios_ii_cppinstr.dat"
+
+ Build Configuration Details - (Default).
+ ----------------------------------------
+ * Build Mechanism: Build Command
+ * Build Start in Directory : "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\"
+ * Date Stamp : Sun Nov 14 09:28:05 2021
+ * Read Only : No
+
+ * Substituting source files.
+ * Piping output to log window.
+ * Run Compile command once for each file.
+ * Run Build command once for analysis.
+
+ * Build Command : "C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat"
+ * Compile Command : ""
+ * Link Command : ""
+ * IDE Command : ""
+ * Makefile Command : ""
+ * Makefile Name : ""
+ * Makefile relative to start in directory.
+ * Project NMAKE Command : ""
+ * Project Makefile Name : ""
+ * Project makefile relative to start in directory.
+ * Project MSDEV Command : ""
+ * Project File Name : ""
+ * Project file relative to start in directory.
+ * Command Id : 0
+
+ Build Configuration Details - (This Run).
+ -----------------------------------------
+ * Build Mechanism: Build Command
+ * Build Start in Directory : "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\"
+ * Date Stamp : Sun Nov 14 09:28:05 2021
+ * Read Only : No
+
+ * Substituting source files.
+ * Piping output to log window.
+ * Run Compile command once for each file.
+ * Run Build command once for analysis.
+
+ * Build Command : "C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat"
+ * Compile Command : ""
+ * Link Command : ""
+ * IDE Command : ""
+ * Makefile Command : ""
+ * Makefile Name : ""
+ * Makefile relative to start in directory.
+ * Project NMAKE Command : ""
+ * Project Makefile Name : ""
+ * Project makefile relative to start in directory.
+ * Project MSDEV Command : ""
+ * Project File Name : ""
+ * Project file relative to start in directory.
+ * Command Id : 0
+
+ Execution Configuration Details - (Default).
+ --------------------------------------------
+ * Execution Command : "$(TBeddir)Compiler_spec\Eclipse_Nios_ii\Nios_ii\Run.bat $(SetName) History.exh $(SourceDir) func 2"
+ * Execution Start in Directory : "$(SourceDir)..\"
+ * Execution start in directory could not be found.
+
+ * Run execute command once for analysis.
+
+ Execution Configuration Details - (This Run).
+ ---------------------------------------------
+ * Execution Command : "$(TBeddir)Compiler_spec\Eclipse_Nios_ii\Nios_ii\Run.bat $(SetName) History.exh $(SourceDir) func 2"
+ * Execution Start in Directory : "$(SourceDir)..\"
+ * Execution start in directory could not be found.
+
+ * Run execute command once for analysis.
+
+ Execution History Details
+ -------------------------
+ * Execution History Directory (EXHDIR) : "$(SourceDir)..\"
+ * Execution history directory could not be found.
+
+ * Overridding execution history directory not set
+ * Not validating execution histories with validexh.
+ * Not forcing running of dynamic history splitter.
+ * Non standard history : 21
+ * Execution History Width : 0
+ * Coverage Level : 3
+
+
+ --------------------------------------------------------------------------------
+
+                                                   ********************
+                                                   *                  *
+                                                   *  System Details  *
+                                                   *                  *
+                                                   ********************
+
+ Testbed Information
+ -------------------
+ * Platform : Windows
+ * Report Level : 4
+ * CTL License String : Viettel Aerospace Institute
+ * CTL Version String : Version 9.8.7
+ * CTL Customer ID : 714708
+ * CTL Version Code : F
+ * CTL Language(s) : C/C++
+ * CTL Phases : MSA CMP DFL XRF DOA DYN DST PAN INF CON ESA CVF
+ * CTL Modules : TBMISRA TBSAFE TBPUBLISH TBEVOLVE TBRUN TBDICT TBEXTREME TBVISION TBSECURE TBMEM TBMANAGER TBGLHSUPPORT TBSTATIC TBMAKELOGPARSER TBGUI TBCALL TBFLOW TBGLHAPI TBBUILDTEST TBBUILDSCRIPT TBTLPTEST TBFARMMONITOR TBGLHCOMPARE TBEXCLUDE TBMSCRIPT
+ * CTL License Code : DYWP-5AE5-2AM7-ZHVZ-C14X-WVT3-LWKX-5BY4-CLZP-3NMG
+ * Initial Command Line :
+ C:\LDRA_Toolsuite\testbed.exe  hello.elf /81q /show_sir_file /generate_email=show /hide_gui_when_running /tbvision=0
+
+ Dongle Information.
+ -------------------
+ * Flex LM
+ * Dongle call not completed
+
+ Host Computer Details
+ ---------------------
+ * Computer : PMN-GNC
+ * User : Unknown
+ * Operating System : Unknown
+ * Major Version Number : 10
+ * Minor Version Number : 0
+ * Build Number : 17763
+ * Build Number (LOWORD) : 17763
+ * Build Number (HIWORD) : 0
+ * Platform ID : VER_PLATFORM_WIN32_NT : Win32 on Windows NT.
+ * Version Information : 
+
+ Environment Variables
+ ---------------------
+ =::=::\
+ =C:=C:\LDRA_Workarea
+ =D:=D:\
+ ALLUSERSPROFILE=C:\ProgramData
+ APPDATA=C:\Users\PMN-GNC\AppData\Roaming
+ CommonProgramFiles=C:\Program Files\Common Files
+ CommonProgramFiles(x86)=C:\Program Files (x86)\Common Files
+ CommonProgramW6432=C:\Program Files\Common Files
+ COMPUTERNAME=PMN-GNC
+ ComSpec=C:\Windows\system32\cmd.exe
+ DNX_HOME=%USERPROFILE%\.dnx
+ DriverData=C:\Windows\System32\Drivers\DriverData
+ ExtraPuTTY=C:\Program Files\ExtraPuTTY\Bin
+ ExtraPuTTY_BOXSIZE=AUTO
+ ExtraPuTTY_MODE=DIR_MODE
+ ExtraPuTTY_USERPROFILE=C:\Users\Public\\ExtraPuTTY
+ FPS_BROWSER_APP_PROFILE_STRING=Internet Explorer
+ FPS_BROWSER_USER_PROFILE_STRING=Default
+ HOMEDRIVE=C:
+ HOMEPATH=\Users\PMN-GNC
+ LDRA_LICENSE_FILE=27000@PMN-GNC;
+ LM_LICENSE_FILE=C:\flexlm\license.dat
+ LOCALAPPDATA=C:\Users\PMN-GNC\AppData\Local
+ LOGONSERVER=\\PMN-GNC
+ MOZ_PLUGIN_PATH=C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\
+ NUMBER_OF_PROCESSORS=4
+ OneDrive=C:\Users\PMN-GNC\OneDrive
+ OS=Windows_NT
+ Path=C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\intelFPGA\18.1\embedded\host_tools\mentor\gnu\arm\baremetal\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64;C:\Program Files\Polyspace\R2020b\runtime\win64;C:\Program Files\Polyspace\R2020b\bin;C:\Program Files\Polyspace\R2020b\polyspace\bin;C:\Users\PMN-GNC\.dnx\bin;C:\Users\PMN-GNC\AppData\Local\Microsoft\WindowsApps;C:\intelFPGA\18.1\modelsim_ae\win32aloem;C:\intelFPGA\18.1\embedded\host_tools\mentor\gnu\arm\baremetal\bin;C:\Program Files\OpenCppCoverage
+ PATHEXT=.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+ PROCESSOR_ARCHITECTURE=AMD64
+ PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 78 Stepping 3, GenuineIntel
+ PROCESSOR_LEVEL=6
+ PROCESSOR_REVISION=4e03
+ ProgramData=C:\ProgramData
+ ProgramFiles=C:\Program Files
+ ProgramFiles(x86)=C:\Program Files (x86)
+ ProgramW6432=C:\Program Files
+ PSModulePath=C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+ PUBLIC=C:\Users\Public
+ QSYS_ROOTDIR=C:\intelFPGA\18.1\quartus\sopc_builder\bin
+ QUARTUS_ROOTDIR=C:\intelFPGA\18.1\quartus
+ SESSIONNAME=Console
+ SOPC_KIT_NIOS2=C:\intelFPGA\18.1\nios2eds
+ SystemDrive=C:
+ SystemRoot=C:\Windows
+ TEMP=C:\Users\PMN-GNC\AppData\Local\Temp
+ TESTBED=C:\ProgramData\LDRA\
+ TMP=C:\Users\PMN-GNC\AppData\Local\Temp
+ USERDOMAIN=PMN-GNC
+ USERDOMAIN_ROAMINGPROFILE=PMN-GNC
+ USERNAME=PMN-GNC
+ USERPROFILE=C:\Users\PMN-GNC
+ VS140COMNTOOLS=C:\Program Files (x86)\Microsoft Visual Studio 14.0\Common7\Tools\
+ windir=C:\Windows
+
+ Memory Details
+ --------------
+ * Percentage of Memory in Use : 44
+ * Bytes of Physical Memory : -101273600 : -98900KB : -96MB
+ * Free Physical Memory Bytes : 415129600 : 405400KB : 395MB
+ * Bytes of Paging File : 1240903680 : 1211820KB : 1183MB
+ * Free Bytes of Paging File : 1825296384 : 1782516KB : 1740MB
+ * User Bytes of Address Space : -131072 : -128KB : 0MB
+ * Free User Bytes : -270254080 : -263920KB : -257MB
+
+
+ --------------------------------------------------------------------------------
+
+                                                ***************************
+                                                *                         *
+                                                *  hello_world_small.cpp  *
+                                                *                         *
+                                                ***************************
+
+
+ File Statistics :
+ -----------------
+ * Full File Name : "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\hello_world_small.cpp"
+ * Module Number : 176
+ * Date Stamp : Sun Nov 14 09:18:09 2021
+ * File Size : 3823 Bytes
+ * Read Only : No
+
+ Language Code :
+ ---------------
+ * Language Code : 6
+ * Language : C++
+
+ Static Results :
+ ----------------
+ * "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello_world_small_176.sfj" exists.
+ * Date Stamp : Sun Nov 14 09:20:26 2021
+ * File Size : 3 Lines
+ * Read Only : No
+
+ Analysis Dialect :
+ ------------------
+ *    GCC
+
+ Include Files :
+ ---------------
+ * Analysing with include files.
+
+ Include Hierarchy :
+ -------------------
+      =====================================================================================================================================================================
+      FILE                                                       DATE         STANDARDS
+      NAME                                          EXPANDED     STATUS       EXCLUDED               FULL PATH                                                             
+      =====================================================================================================================================================================
+      
+      alt_stdio.h                                   Yes          Out of date  Yes                    D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\HAL\inc\sys\alt_stdio.h
+         <stdarg.h>                                 -            -            -
+      
+      <stdio.h>                                     -            -            -
+      <unistd.h>                                    -            -            -
+
+
+      ============================================
+      SEARCH PATH                             USED
+      ============================================
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\drivers\inc\
+                                              No
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+                                              No
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\HAL\inc\
+                                              Yes
+
+
+
+ Include Path Data File  (Sysearch.dat) :
+ ----------------------------------------
+ * Data File : "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello.elf - Sysearch.dat"
+ * Date Stamp : Sun Nov 14 14:19:44 2021
+ * File Size : 5957 Bytes
+ * Read Only : No
+ * Data file is out of date
+
+ [ start of file insert ]
+  0
+  0 This data file determines how static analysis acts with respect to #include statements
+  0 found in the source code.
+  0 This will affect both the analysis results and the contents of the instrumented source file.
+  0
+  0 Included files can be searched for and expanded during analysis,
+  0 or the #include statement can be left in place. Type 301 records (see below) allow
+  0 specific include statements to be removed from the instrumented code.
+  0
+  0 Place entries in the same position as this comment with the last digit of the identifier
+  0 (1, 301 etc.) replacing 0. For example, replacing 0 with 1 in the following line would
+  0 make this into a search directory (see Type 1 below):
+  0 e:\source\include\
+  0
+  0 Any lines with an identifier 0 are included as comments.
+  0 This is an automatically generated file and comments can be overwritten.
+  0
+  0 Type 1   - full or relative directory name, for example:
+  0              1 e:\source\include\
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0              1 $(ENVDIR)\include\
+  0            Directory to search for include files to be expanded during static analysis.
+  0
+  0            It is not generally appropriate to add search paths for standard system/compiler
+  0            include directories.
+  0
+  0            The first 3 paths specified can be made available through the $(SysIncludeEnv)
+  0            macro as system include paths.
+  0            This macro can be used with, for example, an INCLUDE environment string in
+  0            the [<compiler> Build Environment] section of Testbed.ini.
+  0
+  1 D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\HAL\inc
+  1 D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp
+  1 D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\drivers\inc
+  0
+  0 Type 2   - full or relative directory names,
+  0            which are added to the $(Includedirs) macro but not expanded during static analysis for example:
+  0              2 e:\thirdparty\include\
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0              2 $(THIRDPARTY)\include\
+  0            Path to be added to the $(Includedirs) macro for example in build commands.
+  0
+  0            This should generally contain search paths for standard system/compiler
+  0            include directories.
+  0
+  0
+  0 Type 3   - full or relative directory names,
+  0            which have the same action as type 1 but are only used for sysppvar generation :
+  0              3 e:\library\include\
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0              3 $(LIBDIR)\include\
+  0            Path to be added to the $(Includedirs) macro for example in build commands.
+  0
+  0
+  0 Type 200 - full or relative file name, for example:
+  0            200 e:\source\include\compiler_A.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            200 $(ENVDIR)\include\compiler_A.h
+  0
+  0            Include file specified will only be expanded if found in this location.
+  0            Path also becomes a general search path as described by Type 1 above.
+  0            Entries of this type are often automatically added when loading a
+  0            compiler project file.
+  0
+  0
+  0 Type 201 - full or relative file name, for example:
+  0            201 e:\source\include\compiler_B.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            201 $(ENVDIR)\include\compiler_B.h
+  0
+  0            Include file specified will not be expanded during static analysis.
+  0            Files of the same name found in different search directories may be expanded.
+  0
+  0
+  0 Type 202 - full or relative file name, for example:
+  0            202 e:\source\include\compiler_C.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            202 $(ENVDIR)\include\compiler_C.h
+  0
+  0            Each occurrence of include file specified will be expanded during static analysis.
+  0
+  0
+  0 Type 203 - full or relative file name, for example:
+  0            203 e:\source\include\compiler_D.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            203 $(ENVDIR)\include\compiler_D.h
+  0
+  0            Indicates an include file to be inserted at the top of reformatted source code.
+  0            Can be used, for example, where gcc command line qualifier -include
+  0            (or equivalent) is used.
+  0
+  0
+  0 Type 300 - short file name, for example:
+  0            300 user_file.h
+  0            Include statements for this file will not be searched for or expanded during
+  0            static analysis.
+  0
+  0
+  0 Type 301 - short file name, for example:
+  0            301 user_file.h
+  0            Include statements for this file will not be searched for or expanded during
+  0            static analysis and will be removed (commented out) in the reformatted source code.
+  0
+  0
+  0 Type 400 - specify the include file name to replace a macro, for example:
+  0            400 _TOOL_HDR( TOOL_FAMILY, limits.h ) limits.h
+  0            Format is <macro> <file name>
+  0            where <macro> is the exact text following a #include.
+  0
+  0
+  0 Type 401 - specify the text to replace a macro in an include statement, for example:
+  0            401 _TOOL_HDR( TOOL_FAMILY, limits.h ) <limits.h>
+  0            Format is <macro> <replacement>
+  0            where <macro> is the exact text following a #include found in the source code,
+  0            <replacement> is a  file name in "" or <> to replace the macro in the reformatted source code.
+  0
+  0            Matching include statements will not be expanded during static analysis.
+  0
+ [ end of file insert ]
+
+
+ Macro Definition Data File  (Sysppvar.dat) :
+ --------------------------------------------
+ * Data File : "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello.elf - Sysppvar.dat"
+ * Date Stamp : Sun Nov 14 14:20:31 2021
+ * File Size : 327 Bytes
+ * Read Only : No
+ * Data file is out of date
+
+ [ start of file insert ]
+#define __hal__ 1
+#define ALT_NO_C_PLUS_PLUS 1
+#define ALT_NO_CLEAN_EXIT 1
+#define exit(a) _exit(a)
+#define ALT_NO_EXIT 1
+#define ALT_USE_DIRECT_DRIVERS 1
+#define ALT_NO_INSTRUCTION_EMULATION 1
+#define ALT_USE_SMALL_DRIVERS 1
+#define SMALL_C_LIB 1
+#define ALT_SINGLE_THREADED 1
+ALT_SEMIHOSTING <LDRA_QQ_UNDEF_MACRO>
+ [ end of file insert ]
+
+ Macdat Data File :
+ ------------------
+ * MacDat Data File : "C:\LDRA_Toolsuite\cmacdat.dat" does not exist.
+
+ Instrumented Source File :
+ --------------------------
+ * Name : C:\LDRA_Workarea\hello_world_small.i_cpp
+ * Date Stamp : Sun Nov 14 09:22:51 2021
+ * File Size : 293476 Bytes
+ * Read Only : No
+
+ Execution History Files :
+ -------------------------
+ * Name : D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\hello_world_small_176.exh
+ * "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\hello_world_small_176.exh" does not exist.
+
+ * Name : D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\history.exh
+ * "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\history.exh" does not exist.
+
+ * Name : C:\LDRA_Workarea\hello.elf_tbwrkfls\hello_world_small_176.exc
+ * "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello_world_small_176.exc" does not exist.
+
+
+ --------------------------------------------------------------------------------
+
+                                                      **************
+                                                      *            *
+                                                      *  test.cpp  *
+                                                      *            *
+                                                      **************
+
+
+ File Statistics :
+ -----------------
+ * Full File Name : "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\test.cpp"
+ * Module Number : 177
+ * Date Stamp : Sun Nov 14 09:18:45 2021
+ * File Size : 804 Bytes
+ * Read Only : No
+
+ Language Code :
+ ---------------
+ * Language Code : 6
+ * Language : C++
+
+ Static Results :
+ ----------------
+ * "C:\LDRA_Workarea\hello.elf_tbwrkfls\test_177.sfj" exists.
+ * Date Stamp : Sun Nov 14 09:21:11 2021
+ * File Size : 12 Lines
+ * Read Only : No
+
+ Analysis Dialect :
+ ------------------
+ *    GCC
+
+ Include Files :
+ ---------------
+ * Analysing with include files.
+
+ Include Hierarchy :
+ -------------------
+      ========================================================================================================================================
+      FILE                                                       DATE         STANDARDS
+      NAME                                          EXPANDED     STATUS       EXCLUDED               FULL PATH                                
+      ========================================================================================================================================
+      <stdio.h>                                     -            -            -
+
+
+      ============================================
+      SEARCH PATH                             USED
+      ============================================
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\drivers\inc\
+                                              No
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+                                              No
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\HAL\inc\
+                                              No
+
+
+
+ Include Path Data File  (Sysearch.dat) :
+ ----------------------------------------
+ * Data File : "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello.elf - Sysearch.dat"
+ * Date Stamp : Sun Nov 14 14:19:44 2021
+ * File Size : 5957 Bytes
+ * Read Only : No
+ * Data file is out of date
+
+ [ start of file insert ]
+  0
+  0 This data file determines how static analysis acts with respect to #include statements
+  0 found in the source code.
+  0 This will affect both the analysis results and the contents of the instrumented source file.
+  0
+  0 Included files can be searched for and expanded during analysis,
+  0 or the #include statement can be left in place. Type 301 records (see below) allow
+  0 specific include statements to be removed from the instrumented code.
+  0
+  0 Place entries in the same position as this comment with the last digit of the identifier
+  0 (1, 301 etc.) replacing 0. For example, replacing 0 with 1 in the following line would
+  0 make this into a search directory (see Type 1 below):
+  0 e:\source\include\
+  0
+  0 Any lines with an identifier 0 are included as comments.
+  0 This is an automatically generated file and comments can be overwritten.
+  0
+  0 Type 1   - full or relative directory name, for example:
+  0              1 e:\source\include\
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0              1 $(ENVDIR)\include\
+  0            Directory to search for include files to be expanded during static analysis.
+  0
+  0            It is not generally appropriate to add search paths for standard system/compiler
+  0            include directories.
+  0
+  0            The first 3 paths specified can be made available through the $(SysIncludeEnv)
+  0            macro as system include paths.
+  0            This macro can be used with, for example, an INCLUDE environment string in
+  0            the [<compiler> Build Environment] section of Testbed.ini.
+  0
+  1 D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\HAL\inc
+  1 D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp
+  1 D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\drivers\inc
+  0
+  0 Type 2   - full or relative directory names,
+  0            which are added to the $(Includedirs) macro but not expanded during static analysis for example:
+  0              2 e:\thirdparty\include\
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0              2 $(THIRDPARTY)\include\
+  0            Path to be added to the $(Includedirs) macro for example in build commands.
+  0
+  0            This should generally contain search paths for standard system/compiler
+  0            include directories.
+  0
+  0
+  0 Type 3   - full or relative directory names,
+  0            which have the same action as type 1 but are only used for sysppvar generation :
+  0              3 e:\library\include\
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0              3 $(LIBDIR)\include\
+  0            Path to be added to the $(Includedirs) macro for example in build commands.
+  0
+  0
+  0 Type 200 - full or relative file name, for example:
+  0            200 e:\source\include\compiler_A.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            200 $(ENVDIR)\include\compiler_A.h
+  0
+  0            Include file specified will only be expanded if found in this location.
+  0            Path also becomes a general search path as described by Type 1 above.
+  0            Entries of this type are often automatically added when loading a
+  0            compiler project file.
+  0
+  0
+  0 Type 201 - full or relative file name, for example:
+  0            201 e:\source\include\compiler_B.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            201 $(ENVDIR)\include\compiler_B.h
+  0
+  0            Include file specified will not be expanded during static analysis.
+  0            Files of the same name found in different search directories may be expanded.
+  0
+  0
+  0 Type 202 - full or relative file name, for example:
+  0            202 e:\source\include\compiler_C.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            202 $(ENVDIR)\include\compiler_C.h
+  0
+  0            Each occurrence of include file specified will be expanded during static analysis.
+  0
+  0
+  0 Type 203 - full or relative file name, for example:
+  0            203 e:\source\include\compiler_D.h
+  0            Can incorporate environment variables in the form $(ENVDIR), for example:
+  0            203 $(ENVDIR)\include\compiler_D.h
+  0
+  0            Indicates an include file to be inserted at the top of reformatted source code.
+  0            Can be used, for example, where gcc command line qualifier -include
+  0            (or equivalent) is used.
+  0
+  0
+  0 Type 300 - short file name, for example:
+  0            300 user_file.h
+  0            Include statements for this file will not be searched for or expanded during
+  0            static analysis.
+  0
+  0
+  0 Type 301 - short file name, for example:
+  0            301 user_file.h
+  0            Include statements for this file will not be searched for or expanded during
+  0            static analysis and will be removed (commented out) in the reformatted source code.
+  0
+  0
+  0 Type 400 - specify the include file name to replace a macro, for example:
+  0            400 _TOOL_HDR( TOOL_FAMILY, limits.h ) limits.h
+  0            Format is <macro> <file name>
+  0            where <macro> is the exact text following a #include.
+  0
+  0
+  0 Type 401 - specify the text to replace a macro in an include statement, for example:
+  0            401 _TOOL_HDR( TOOL_FAMILY, limits.h ) <limits.h>
+  0            Format is <macro> <replacement>
+  0            where <macro> is the exact text following a #include found in the source code,
+  0            <replacement> is a  file name in "" or <> to replace the macro in the reformatted source code.
+  0
+  0            Matching include statements will not be expanded during static analysis.
+  0
+ [ end of file insert ]
+
+
+ Macro Definition Data File  (Sysppvar.dat) :
+ --------------------------------------------
+ * Data File : "C:\LDRA_Workarea\hello.elf_tbwrkfls\hello.elf - Sysppvar.dat"
+ * Date Stamp : Sun Nov 14 14:20:31 2021
+ * File Size : 327 Bytes
+ * Read Only : No
+ * Data file is out of date
+
+ [ start of file insert ]
+#define __hal__ 1
+#define ALT_NO_C_PLUS_PLUS 1
+#define ALT_NO_CLEAN_EXIT 1
+#define exit(a) _exit(a)
+#define ALT_NO_EXIT 1
+#define ALT_USE_DIRECT_DRIVERS 1
+#define ALT_NO_INSTRUCTION_EMULATION 1
+#define ALT_USE_SMALL_DRIVERS 1
+#define SMALL_C_LIB 1
+#define ALT_SINGLE_THREADED 1
+ALT_SEMIHOSTING <LDRA_QQ_UNDEF_MACRO>
+ [ end of file insert ]
+
+ Macdat Data File :
+ ------------------
+ * MacDat Data File : "C:\LDRA_Toolsuite\cmacdat.dat" does not exist.
+
+ Instrumented Source File :
+ --------------------------
+ * Name : C:\LDRA_Workarea\test.i_cpp
+ * Date Stamp : Sun Nov 14 09:22:52 2021
+ * File Size : 238955 Bytes
+ * Read Only : No
+
+ Execution History Files :
+ -------------------------
+ * Name : D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\test_177.exh
+ * "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\test_177.exh" does not exist.
+
+ * Name : D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\history.exh
+ * "D:\linhbt\LDRA\DE0_CV_ucos\software\hello\..\history.exh" does not exist.
+
+ * Name : C:\LDRA_Workarea\hello.elf_tbwrkfls\test_177.exc
+ * "C:\LDRA_Workarea\hello.elf_tbwrkfls\test_177.exc" does not exist.
+
+
+ --------------------------------------------------------------------------------
+
+                                               ***************************
+                                               *                         *
+                                               *  Sysearch Record Usage  *
+                                               *                         *
+                                               ***************************
+
+
+      =================================================
+      SYSEARCH RECORD                         USED TYPE
+      =================================================
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\
+                                              No   1
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\HAL\inc\
+                                              Yes  1
+      D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\drivers\inc\
+                                              No   1
+
+
+                              ===========================================================
+                              *                                                         *
+                              *      End of LDRA Testbed Software Incident Report       *
+                              *                                                         *
+                              *  Copyright (C) 2021 Liverpool Data Research Associates  *
+                              *                                                         *
+                              ===========================================================
+
+
+
+ --------------------------------------------------------------------------------
+
+ LDRA Internal Use Only:
+
+ LDRA Internal Filing Checklist:
+ Customer File [ ]    C SIR File [ ]
+ Custodian     [ ]    Category:
+ Customer ID:
+
+ Issue Resolution Details:
+
+ LDRA Sign Off:
+
+ Date:
+ Notes:
+
+
+ --------------------------------------------------------------------------------
+

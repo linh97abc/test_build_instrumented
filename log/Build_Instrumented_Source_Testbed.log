@@ -1,0 +1,81 @@
+ 
+----------------
+Testbed logging Started on:
+Nov 14 2021 at 09:28:01
+---------------
+
+...Logging on
+...Logging on
+-----------------------------
+Loading set hello.elf started
+-----------------------------
+------------------------------
+Loading set hello.elf finished
+------------------------------
+
+Command line:
+ C:\LDRA_Toolsuite\contestbed.exe  hello.elf  -build_type=build  -no_coverage_inst=off -instr_build_test -clean_before_build -no_reviews -noinstr_template_io -logfile=C:\LDRA_Workarea\Build_Instrumented_Source_Testbed.log
+
+-------------------------
+Command Line Mode started
+-------------------------
+----------------------------------------
+Instrumented Executable Deletion started
+----------------------------------------
+-----------------------------------------
+Instrumented Executable Deletion finished
+-----------------------------------------
+
+----------
+Generate Instrumented Program(s) results already exist for file
+D:\linhbt\LDRA\DE0_CV_ucos\software\hello\hello_world_small.cpp
+No analysis necessary
+----------
+
+----------
+Generate Instrumented Program(s) results already exist for file
+D:\linhbt\LDRA\DE0_CV_ucos\software\hello\test.cpp
+No analysis necessary
+----------
+
+Substituting Source Files started
+Substituting Source Files finished
+
+-----------------------------------------------------------------
+Building Phase started for:
+C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat
+-----------------------------------------------------------------
+Building program started
+Command appears to be an MS-Dos batch file
+Piping is cancelled
+
+Using Merged Environment
+
+PATH=C:\intelFPGA\18.1\nios2eds;C:\intelFPGA\18.1\nios2eds\bin\eclipse_nios2;C:\intelFPGA\18.1\nios2eds\bin\gnu\H-x86_64-mingw32\bin;%PATH%;
+Storing PATH = C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\intelFPGA\18.1\embedded\host_tools\mentor\gnu\arm\baremetal\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64;C:\Program Files\Polyspace\R2020b\runtime\win64;C:\Program Files\Polyspace\R2020b\bin;C:\Program Files\Polyspace\R2020b\polyspace\bin;C:\Users\PMN-GNC\.dnx\bin;C:\Users\PMN-GNC\AppData\Local\Microsoft\WindowsApps;C:\intelFPGA\18.1\modelsim_ae\win32aloem;C:\intelFPGA\18.1\embedded\host_tools\mentor\gnu\arm\baremetal\bin;C:\Program Files\OpenCppCoverage
+Adding existing value %PATH%
+
+Restoring PATH = C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Strawberry\c\bin;C:\Strawberry\perl\site\bin;C:\Strawberry\perl\bin;C:\Program Files\Git\cmd;C:\Program Files\TortoiseGit\bin;C:\Windows\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\intelFPGA\18.1\embedded\host_tools\mentor\gnu\arm\baremetal\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\PuTTY\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\CMake\bin;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\amd64;C:\Program Files\Polyspace\R2020b\runtime\win64;C:\Program Files\Polyspace\R2020b\bin;C:\Program Files\Polyspace\R2020b\polyspace\bin;C:\Users\PMN-GNC\.dnx\bin;C:\Users\PMN-GNC\AppData\Local\Microsoft\WindowsApps;C:\intelFPGA\18.1\modelsim_ae\win32aloem;C:\intelFPGA\18.1\embedded\host_tools\mentor\gnu\arm\baremetal\bin;C:\Program Files\OpenCppCoverage
+
+Spawning Command
+C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat
+Building program finished
+
+-----------------------------------------------------------------
+Building Phase finished for:
+C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat
+-----------------------------------------------------------------
+
+Restoring Source Files started
+Restoring Source Files finished
+
+Generating Analysis Scope Report started
+Generating Analysis Scope Report finished
+
+Creating GLH Results Repository started
+Creating GLH Results Repository finished
+
+--------------------------
+Command Line Mode finished
+--------------------------
+

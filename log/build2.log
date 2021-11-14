@@ -1,0 +1,260 @@
+
+D:\linhbt\LDRA\DE0_CV_ucos\software\hello>C:\intelFPGA\18.1\nios2eds\"Nios II Command Shell".bat sh /cygdrive/c/LDRA_Toolsuite/Compiler_spec/Eclipse_Nios_ii/Nios_ii/Build.sh
+[hello clean complete]
+Info: Building ../hello_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.cpp to obj/default/hello_world_small.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../hello_bsp//HAL/inc -I../hello_bsp/ -I../hello_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED      -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.cpp
+hello_world_small.cpp:539:0: warning: ignoring #pragma FUNC_EXT_CALLED  [-Wunknown-pragmas]
+ #pragma FUNC_EXT_CALLED;                                                                                                                                                                                                                       
+ ^
+hello_world_small.cpp: In function 'int main()':
+hello_world_small.cpp:633:7: warning: unused variable 'zzqqzs' [-Wunused-variable]
+   int zzqqzs = ((int)(bitmapstruct.element0 |= (1 <<  0))); /* 32a */
+       ^
+hello_world_small.cpp:619:7: warning: unused variable 'mainzz' [-Wunused-variable]
+   int mainzz = hello_world_small_176zqqzqz1                                                                         (); /* 46 */
+       ^
+hello_world_small.cpp: In function 'void qqqqinitialise(int)':
+hello_world_small.cpp:866:18: warning: unused variable 'i' [-Wunused-variable]
+     unsigned int i;                                                                                                                                                                                                                            
+                  ^
+hello_world_small.cpp: In function 'void qqqzzuploadmcdc(int)':
+hello_world_small.cpp:906:56: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           "%8d%8d%8d%8d\n", (-2), (pfileid), (-2), (-2));                                                                                                                                                                                      
+                                                        ^
+hello_world_small.cpp:910:66: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+       "%8d%8d%8d\n", aqqqmcdcstore[iz], pfileid, QQQBMAPMCDCFWDTH);                                                                                                                                                                            
+                                                                  ^
+hello_world_small.cpp:918:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         QQQBMAPMCDCFORMAT, jz);                                                                                                                                                                                                                
+                              ^
+hello_world_small.cpp:920:23: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         "%8d", pfileid);                                                                                                                                                                                                                       
+                       ^
+hello_world_small.cpp:922:11: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+       "\n");                                                                                                                                                                                                                                   
+           ^
+hello_world_small.cpp:928:47: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           QQQBMAPMCDCFORMAT, aqqqmcdcstore[iz]);                                                                                                                                                                                               
+                                               ^
+hello_world_small.cpp:932:29: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+               "%8d", pfileid);                                                                                                                                                                                                                 
+                             ^
+hello_world_small.cpp:941:15: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           "\n");                                                                                                                                                                                                                               
+               ^
+hello_world_small.cpp:949:15: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           "\n");                                                                                                                                                                                                                               
+               ^
+hello_world_small.cpp:958:27: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+             "%8d", pfileid);                                                                                                                                                                                                                   
+                           ^
+hello_world_small.cpp:961:29: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         QQQBMAPMCDCFORMAT, 0);                                                                                                                                                                                                                 
+                             ^
+hello_world_small.cpp:964:11: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+       "\n");                                                                                                                                                                                                                                   
+           ^
+hello_world_small_176zbelem.def: In function 'void qqqupload()':
+hello_world_small.cpp:1109:62: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ #define ELEMENT(N) qqbmsoutput("%8d", bitmapstruct.element##N);                                                                                                                                                                                
+                                                              ^
+hello_world_small_176zbelem.def:2:2: note: in expansion of macro 'ELEMENT'
+  ELEMENT(           0 )
+  ^
+hello_world_small.cpp:1104:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;                                                                                                                                                                                                                                     
+         ^
+hello_world_small.cpp: At global scope:
+hello_world_small.cpp:473:14: warning: 'qqqisinitialised' defined but not used [-Wunused-variable]
+   static int qqqisinitialised = 0;                                                                                                                                                                                                             
+              ^
+hello_world_small.cpp:509:24: warning: 'qqqzzglobflag' defined but not used [-Wunused-variable]
+   static unsigned char qqqzzglobflag = 0;                                                                                                                                                                                                      
+                        ^
+hello_world_small.cpp:832:17: warning: 'void qqoutput2(char*, int, int)' defined but not used [-Wunused-function]
+     static void qqoutput2(FILEPOINT char * s, int i, int j)                                                                                                                                                                                    
+                 ^
+hello_world_small.cpp:756:14: warning: 'int qqswitchxx()' defined but not used [-Wunused-function]
+   static int qqswitchxx(qqnull_params)                                                                                                                                                                                                         
+              ^
+hello_world_small.cpp:773:14: warning: 'int qqswitchyy()' defined but not used [-Wunused-function]
+   static int qqswitchyy(qqnull_params)                                                                                                                                                                                                         
+              ^
+hello_world_small.cpp:790:14: warning: 'int uuswitchqq()' defined but not used [-Wunused-function]
+   static int uuswitchqq(qqnull_params)                                                                                                                                                                                                         
+              ^
+hello_world_small.cpp:979:14: warning: 'int hello_world_small_176zqqzqz()' defined but not used [-Wunused-function]
+   static int hello_world_small_176zqqzqz(qqnull_params)                                                                                                                                                                                        
+              ^
+hello_world_small.cpp:1152:14: warning: 'int hello_world_small_176zzdo17(int, int, int)' defined but not used [-Wunused-function]
+   static int hello_world_small_176zzdo17(                                                                                                                                                                                                      
+              ^
+hello_world_small.cpp:883:15: warning: 'void qqqbitmapreset()' defined but not used [-Wunused-function]
+   static void qqqbitmapreset()                                                                                                                                                                                                                 
+               ^
+hello_world_small.cpp:700:14: warning: 'int hello_world_small_176zscanf(char*)' defined but not used [-Wunused-function]
+   static int hello_world_small_176zscanf(char * qqscan_str)                                                                                                                                                                                    
+              ^
+hello_world_small.cpp:674:15: warning: 'qqqqone' defined but not used [-Wunused-variable]
+   static char qqqqone[]   = "%6d\n";           /* single point */                                                                                                                                                                              
+               ^
+hello_world_small.cpp:683:14: warning: 'qqqlastmcdc' defined but not used [-Wunused-variable]
+   static int qqqlastmcdc = 0;                                                                                                                                                                                                                  
+              ^
+hello_world_small.cpp:685:14: warning: 'paqqqmcdcstr' defined but not used [-Wunused-variable]
+   static int paqqqmcdcstr;                                                                                                                                                                                                                     
+              ^
+hello_world_small.cpp:745:14: warning: 'int qqswitchgetyy()' defined but not used [-Wunused-function]
+   static int qqswitchgetyy(qqnull_params)                                                                                                                                                                                                      
+              ^
+Info: Compiling test.cpp to obj/default/test.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../hello_bsp//HAL/inc -I../hello_bsp/ -I../hello_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED      -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/test.o test.cpp
+test.cpp:461:0: warning: ignoring #pragma FUNC_EXT_CALLED  [-Wunknown-pragmas]
+ #pragma FUNC_EXT_CALLED;                                                                                                                                                                                                                       
+ ^
+test.cpp: In member function 'int test::inc(int)':
+test.cpp:481:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element0 |= (1 <<  0))); /* 37 */
+      ^
+test.cpp: In constructor 'test::test()':
+test.cpp:493:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element0 |= (1 <<  2))); /* 37 */
+      ^
+test.cpp: In constructor 'test::test(int)':
+test.cpp:502:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element0 |= (1 <<  4))); /* 37 */
+      ^
+test.cpp: In member function 'int test::func(int)':
+test.cpp:511:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element0 |= (1 <<  6))); /* 37 */
+      ^
+test.cpp: In member function 'bool test::operator==(test)':
+test.cpp:525:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element0 |= (1 <<  8))); /* 37 */
+      ^
+test.cpp: In member function 'bool test::operator!=(test)':
+test.cpp:535:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element0 |= (1 << 10))); /* 37 */
+      ^
+test.cpp: In member function 'void test::testRef(test&)':
+test.cpp:545:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element0 |= (1 << 12))); /* 37 */
+      ^
+test.cpp: In function 'void testRef(test&, int)':
+test.cpp:567:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element1 |= (1 <<  0))); /* 37 */
+      ^
+test.cpp: In function 'test testEqClass(test&)':
+test.cpp:580:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element1 |= (1 <<  3))); /* 37 */
+      ^
+test.cpp: In function 'int func(int)':
+test.cpp:593:6: warning: unused variable 'izzqqzz' [-Wunused-variable]
+  int izzqqzz=((int)(bitmapstruct.element1 |= (1 <<  5))); /* 37 */
+      ^
+test.cpp: In function 'void qqqqinitialise(int)':
+test.cpp:810:18: warning: unused variable 'i' [-Wunused-variable]
+     unsigned int i;                                                                                                                                                                                                                            
+                  ^
+test.cpp: In function 'void qqqzzuploadmcdc(int)':
+test.cpp:844:56: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           "%8d%8d%8d%8d\n", (-2), (pfileid), (-2), (-2));                                                                                                                                                                                      
+                                                        ^
+test.cpp:848:66: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+       "%8d%8d%8d\n", aqqqmcdcstore[iz], pfileid, QQQBMAPMCDCFWDTH);                                                                                                                                                                            
+                                                                  ^
+test.cpp:856:30: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         QQQBMAPMCDCFORMAT, jz);                                                                                                                                                                                                                
+                              ^
+test.cpp:858:23: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         "%8d", pfileid);                                                                                                                                                                                                                       
+                       ^
+test.cpp:860:11: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+       "\n");                                                                                                                                                                                                                                   
+           ^
+test.cpp:866:47: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           QQQBMAPMCDCFORMAT, aqqqmcdcstore[iz]);                                                                                                                                                                                               
+                                               ^
+test.cpp:870:29: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+               "%8d", pfileid);                                                                                                                                                                                                                 
+                             ^
+test.cpp:879:15: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           "\n");                                                                                                                                                                                                                               
+               ^
+test.cpp:887:15: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+           "\n");                                                                                                                                                                                                                               
+               ^
+test.cpp:896:27: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+             "%8d", pfileid);                                                                                                                                                                                                                   
+                           ^
+test.cpp:899:29: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+         QQQBMAPMCDCFORMAT, 0);                                                                                                                                                                                                                 
+                             ^
+test.cpp:902:11: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+       "\n");                                                                                                                                                                                                                                   
+           ^
+test_177zbelem.def: In function 'void qqqupload()':
+test.cpp:1028:62: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ #define ELEMENT(N) qqbmsoutput("%8d", bitmapstruct.element##N);                                                                                                                                                                                
+                                                              ^
+test_177zbelem.def:1:2: note: in expansion of macro 'ELEMENT'
+  ELEMENT(           0 )
+  ^
+test.cpp:1028:62: warning: deprecated conversion from string constant to 'char*' [-Wwrite-strings]
+ #define ELEMENT(N) qqbmsoutput("%8d", bitmapstruct.element##N);                                                                                                                                                                                
+                                                              ^
+test_177zbelem.def:3:2: note: in expansion of macro 'ELEMENT'
+  ELEMENT(           1 )
+  ^
+test.cpp:1023:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;                                                                                                                                                                                                                                     
+         ^
+test.cpp: At global scope:
+test.cpp:54:12: warning: 'QQQfirstmcdc' defined but not used [-Wunused-variable]
+ static int QQQfirstmcdc=1;
+            ^
+test.cpp:432:24: warning: 'qqqzzglobflag' defined but not used [-Wunused-variable]
+   static unsigned char qqqzzglobflag = 0;                                                                                                                                                                                                      
+                        ^
+test.cpp:776:17: warning: 'void qqoutput2(char*, int, int)' defined but not used [-Wunused-function]
+     static void qqoutput2(FILEPOINT char * s, int i, int j)                                                                                                                                                                                    
+                 ^
+test.cpp:700:14: warning: 'int qqswitchxx()' defined but not used [-Wunused-function]
+   static int qqswitchxx(qqnull_params)                                                                                                                                                                                                         
+              ^
+test.cpp:717:14: warning: 'int qqswitchyy()' defined but not used [-Wunused-function]
+   static int qqswitchyy(qqnull_params)                                                                                                                                                                                                         
+              ^
+test.cpp:734:14: warning: 'int uuswitchqq()' defined but not used [-Wunused-function]
+   static int uuswitchqq(qqnull_params)                                                                                                                                                                                                         
+              ^
+test.cpp:917:14: warning: 'int test_177zqqzqz()' defined but not used [-Wunused-function]
+   static int test_177zqqzqz(qqnull_params)                                                                                                                                                                                                     
+              ^
+test.cpp:1047:14: warning: 'int test_177zqzqzq(int)' defined but not used [-Wunused-function]
+   static int test_177zqzqzq(int qqqi)                                                                                                                                                                                                          
+              ^
+test.cpp:644:14: warning: 'int test_177zscanf(char*)' defined but not used [-Wunused-function]
+   static int test_177zscanf(char * qqscan_str)                                                                                                                                                                                                 
+              ^
+test.cpp:556:103: warning: 'ZZ177100067' defined but not used [-Wunused-variable]
+  int                                                                                                  ZZ177100067 = (
+                                                                                                       ^
+test.cpp:632:15: warning: 'qqqqone' defined but not used [-Wunused-variable]
+   static char qqqqone[]   = "%6d\n";           /* single point */                                                                                                                                                                              
+               ^
+test.cpp:689:14: warning: 'int qqswitchgetyy()' defined but not used [-Wunused-function]
+   static int qqswitchgetyy(qqnull_params)                                                                                                                                                                                                      
+              ^
+Info: Linking hello.elf
+nios2-elf-g++  -T'../hello_bsp//linker.x' -msys-crt0='../hello_bsp//obj/HAL/src/crt0.o' -msys-lib=hal_bsp -L../hello_bsp/  -msmallc  -Wl,-Map=hello.map   -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o hello.elf obj/default/hello_world_small.o obj/default/test.o -lm -msys-lib=m
+nios2-elf-insert hello.elf --thread_model hal --cpu_name nios2_qsys --qsys true --simulation_enabled false --id 0 --sidp 0x20041048 --timestamp 1416191880 --stderr_dev jtag_uart --stdin_dev jtag_uart --stdout_dev jtag_uart --sopc_system_name DE0_CV_QSYS --quartus_project_dir "d:/linhbt/LDRA/DE0_CV_ucos" --jdi d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_SDRAM_Nios_Test.jdi --sopcinfo d:/linhbt/LDRA/DE0_CV_ucos/software/hello_bsp/../../DE0_CV_QSYS.sopcinfo
+Info: (hello.elf) 6500 Bytes program size (code + initialized data).
+Info:             65535 KBytes free for stack + heap.
+Info: Creating hello.objdump
+nios2-elf-objdump --disassemble --syms --all-header --source hello.elf >hello.objdump
+[hello build complete]
+.

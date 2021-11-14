@@ -1,0 +1,123 @@
+$ Begin TBmakelogparser Information
+
+$ hello.elf.btf
+$ 2 source files
+$ 
+$ Command Used:
+$ =============
+$
+$ Command  : tbmakelogparser D:\linhbt\LDRA\DE0_CV_ucos\software\hello\build_log.txt -t C:\Users\PMN-GNC\AppData\Local\Temp\tbmakelogparser_btf_list.txt -p C:\Users\PMN-GNC\AppData\Local\Temp\tbmakelogparser_ptf_list.txt -f C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Nios_ii_tbmakelogparser.dat -b C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat -d D:\linhbt\LDRA\DE0_CV_ucos\software\hello
+$ Start-In : D:\linhbt\LDRA\DE0_CV_ucos\software\hello
+$
+$ BTF Macros Used:
+$ ================
+$
+$ $(CCompiler) - nios2-elf-gcc
+$ $(CppCompiler) - nios2-elf-g++
+$ $(Source) - source file under test
+$
+$ BTF generated from the following log entries:
+$ =============================================
+$
+$ nios2-elf-g++.exe
+$ D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+$ "nios2-elf-g++" "-T../hello_bsp//linker.x" "-msys-crt0=../hello_bsp//obj/HAL/src/crt0.o" "-msys-lib=hal_bsp" "-L../hello_bsp/" "-msmallc" "-Wl,-Map=hello.map" "-Os" "-g" "-Wall" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-o" "hello.elf" "obj/default/hello_world_small.o" "obj/default/test.o" "-lm" "-msys-lib=m" 
+$ nios2-elf-gcc.exe
+$ D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+$ "nios2-elf-gcc" "-xc++" "-MP" "-MMD" "-c" "-I../hello_bsp//HAL/inc" "-I../hello_bsp/" "-I../hello_bsp//drivers/inc" "-pipe" "-D__hal__" "-DALT_NO_C_PLUS_PLUS" "-DALT_NO_CLEAN_EXIT" "-Dexit(a)=_exit(a)" "-DALT_NO_EXIT" "-DALT_USE_DIRECT_DRIVERS" "-DALT_NO_INSTRUCTION_EMULATION" "-DALT_USE_SMALL_DRIVERS" "-DSMALL_C_LIB" "-DALT_SINGLE_THREADED" "-Os" "-g" "-Wall" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-o" "obj/default/hello_world_small.o" "hello_world_small.cpp" 
+$ cc1plus.exe
+$ D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+$ "c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/cc1plus.exe" "-quiet" "-I" "../hello_bsp//HAL/inc" "-I" "../hello_bsp/" "-I" "../hello_bsp//drivers/inc" "-iprefix" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../lib/gcc/nios2-elf/5.3.0/" "-isysroot" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../../H-x86_64-mingw32" "-MMD" "obj/default/hello_world_small.d" "-MP" "-MQ" "obj/default/hello_world_small.o" "-D" "__hal__" "-D" "ALT_NO_C_PLUS_PLUS" "-D" "ALT_NO_CLEAN_EXIT" "-D" "exit(a)=_exit(a)" "-D" "ALT_NO_EXIT" "-D" "ALT_USE_DIRECT_DRIVERS" "-D" "ALT_NO_INSTRUCTION_EMULATION" "-D" "ALT_USE_SMALL_DRIVERS" "-D" "SMALL_C_LIB" "-D" "ALT_SINGLE_THREADED" "hello_world_small.cpp" "-quiet" "-dumpbase" "hello_world_small.cpp" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-auxbase-strip" "obj/default/hello_world_small.o" "-g" "-Os" "-Wall" "-o" "-" 
+$ nios2-elf-gcc.exe
+$ D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+$ "nios2-elf-gcc" "-xc++" "-MP" "-MMD" "-c" "-I../hello_bsp//HAL/inc" "-I../hello_bsp/" "-I../hello_bsp//drivers/inc" "-pipe" "-D__hal__" "-DALT_NO_C_PLUS_PLUS" "-DALT_NO_CLEAN_EXIT" "-Dexit(a)=_exit(a)" "-DALT_NO_EXIT" "-DALT_USE_DIRECT_DRIVERS" "-DALT_NO_INSTRUCTION_EMULATION" "-DALT_USE_SMALL_DRIVERS" "-DSMALL_C_LIB" "-DALT_SINGLE_THREADED" "-Os" "-g" "-Wall" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-o" "obj/default/test.o" "test.cpp" 
+$ cc1plus.exe
+$ D:\linhbt\LDRA\DE0_CV_ucos\software\hello\
+$ "c:/intelfpga/18.1/nios2eds/bin/gnu/h-x86_64-mingw32/bin/../libexec/gcc/nios2-elf/5.3.0/cc1plus.exe" "-quiet" "-I" "../hello_bsp//HAL/inc" "-I" "../hello_bsp/" "-I" "../hello_bsp//drivers/inc" "-iprefix" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../lib/gcc/nios2-elf/5.3.0/" "-isysroot" "c:\intelfpga\18.1\nios2eds\bin\gnu\h-x86_64-mingw32\bin\../../H-x86_64-mingw32" "-MMD" "obj/default/test.d" "-MP" "-MQ" "obj/default/test.o" "-D" "__hal__" "-D" "ALT_NO_C_PLUS_PLUS" "-D" "ALT_NO_CLEAN_EXIT" "-D" "exit(a)=_exit(a)" "-D" "ALT_NO_EXIT" "-D" "ALT_USE_DIRECT_DRIVERS" "-D" "ALT_NO_INSTRUCTION_EMULATION" "-D" "ALT_USE_SMALL_DRIVERS" "-D" "SMALL_C_LIB" "-D" "ALT_SINGLE_THREADED" "test.cpp" "-quiet" "-dumpbase" "test.cpp" "-mno-hw-div" "-mhw-mul" "-mno-hw-mulx" "-mgpopt=global" "-auxbase-strip" "obj/default/test.o" "-g" "-Os" "-Wall" "-o" "-" 
+$
+$ End TBmakelogparser Information
+
+ # Begin Testbed Set
+
+   SET_TYPE = SYSTEM
+   SET_NAME = hello.elf
+$  BUILD_TARGET = hello.elf
+   TARGET_TYPE = Application
+   GENERATED_BY = TBMakeLogParser
+
+   # Begin Source Files
+
+     File = D:\linhbt\LDRA\DE0_CV_ucos\software\hello\hello_world_small.cpp
+     RelativeFile = .\hello_world_small.cpp
+     File = D:\linhbt\LDRA\DE0_CV_ucos\software\hello\test.cpp
+     RelativeFile = .\test.cpp
+
+   # End Source Files
+
+   # Begin Sysearch Include File Entries
+
+     SearchPath = D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\HAL\inc
+     SearchPath = D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp
+     SearchPath = D:\linhbt\LDRA\DE0_CV_ucos\software\hello_bsp\drivers\inc
+
+   # End Sysearch Include File Entries
+
+   # Begin Sysppvar Preprocessor Macros
+
+     MacroEntryCCmdL = #define __hal__ 1
+     MacroEntryCCmdL = #define ALT_NO_C_PLUS_PLUS 1
+     MacroEntryCCmdL = #define ALT_NO_CLEAN_EXIT 1
+     MacroEntryCCmdL = #define exit(a) _exit(a)
+     MacroEntryCCmdL = #define ALT_NO_EXIT 1
+     MacroEntryCCmdL = #define ALT_USE_DIRECT_DRIVERS 1
+     MacroEntryCCmdL = #define ALT_NO_INSTRUCTION_EMULATION 1
+     MacroEntryCCmdL = #define ALT_USE_SMALL_DRIVERS 1
+     MacroEntryCCmdL = #define SMALL_C_LIB 1
+     MacroEntryCCmdL = #define ALT_SINGLE_THREADED 1
+
+   # End Sysppvar Preprocessor Macros
+
+   # Begin Options
+
+   nb_mechanism = build
+   nb_start_in_dir = D:\linhbt\LDRA\DE0_CV_ucos\software\hello
+   nb_build_command = C:\LDRA_Toolsuite\Compiler_spec\Eclipse_Nios_ii\Nios_ii\Build.bat
+   nb_substitute_source = T
+   nb_object_extension = .o
+   exe_dir = D:\linhbt\LDRA\DE0_CV_ucos\software\hello
+   exe_name = hello
+   exe_append = .elf
+   gensysppvar_run = F 
+   compiler_include_path_flag = -I
+   compiler_compilation_flag = -c
+   compiler_preprocess_flag = -E
+
+   # End Options
+
+   # Begin Build Commands
+
+
+      # Begin File Build Commands
+
+        File = D:\linhbt\LDRA\DE0_CV_ucos\software\hello\hello_world_small.cpp
+        RelativeFile = .\hello_world_small.cpp
+        GenSysppvarCommand = nios2-elf-gcc -xc++ -E -I../hello_bsp//HAL/inc -I../hello_bsp/ -I../hello_bsp//drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -Dexit(a)=_exit(a) -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED -Os -g -Wall -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global -x c++ $(SysppvarMacrofileQuote)
+        GenSysppvarCommandStartIn = D:\linhbt\LDRA\DE0_CV_ucos\software\hello
+
+      # End File Build Commands
+
+
+      # Begin File Build Commands
+
+        File = D:\linhbt\LDRA\DE0_CV_ucos\software\hello\test.cpp
+        RelativeFile = .\test.cpp
+        GenSysppvarCommand = nios2-elf-gcc -xc++ -E -I../hello_bsp//HAL/inc -I../hello_bsp/ -I../hello_bsp//drivers/inc -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -Dexit(a)=_exit(a) -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED -Os -g -Wall -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global -x c++ $(SysppvarMacrofileQuote)
+        GenSysppvarCommandStartIn = D:\linhbt\LDRA\DE0_CV_ucos\software\hello
+
+      # End File Build Commands
+
+
+   # End Build Commands
+
+ # End Testbed Set
+

@@ -1,0 +1,228 @@
+D:\linhbt\LDRA\DE0_CV_ucos\software\hello>C:\intelFPGA\18.1\nios2eds\"Nios II Command Shell".bat sh /cygdrive/c/LDRA_Toolsuite/Compiler_spec/Eclipse_Nios_ii/Nios_ii/Build.sh
+[hello clean complete]
+Info: Building ../hello_bsp/
+C:/intelFPGA/18.1/nios2eds/bin/gnu/H-x86_64-mingw32/bin/make --no-print-directory -C ../hello_bsp/
+[BSP build complete]
+Info: Compiling hello_world_small.cpp to obj/default/hello_world_small.o
+nios2-elf-gcc -xc++ -MP -MMD -c -I../hello_bsp//HAL/inc -I../hello_bsp/ -I../hello_bsp//drivers/inc  -pipe -D__hal__ -DALT_NO_C_PLUS_PLUS -DALT_NO_CLEAN_EXIT -D'exit(a)=_exit(a)' -DALT_NO_EXIT -DALT_USE_DIRECT_DRIVERS -DALT_NO_INSTRUCTION_EMULATION -DALT_USE_SMALL_DRIVERS -DSMALL_C_LIB -DALT_SINGLE_THREADED      -Os -g -Wall   -mno-hw-div -mhw-mul -mno-hw-mulx -mgpopt=global  -o obj/default/hello_world_small.o hello_world_small.cpp
+hello_world_small.cpp:538:0: warning: ignoring #pragma FUNC_EXT_CALLED  [-Wunknown-pragmas]
+ #pragma FUNC_EXT_CALLED;                                                                                                                                                                                                                       
+ ^
+hello_world_small.cpp:136:19: error: variable or field 'qqoutput' declared void
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:523:24: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput(FILEPOINT char * s, int i);                                                                                                                                                                                             
+                        ^
+hello_world_small.cpp:136:19: error: 'FILE' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:523:24: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput(FILEPOINT char * s, int i);                                                                                                                                                                                             
+                        ^
+hello_world_small.cpp:136:26: error: 'f' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                          ^
+hello_world_small.cpp:523:24: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput(FILEPOINT char * s, int i);                                                                                                                                                                                             
+                        ^
+hello_world_small.cpp:523:34: error: expected primary-expression before 'char'
+   static void qqoutput(FILEPOINT char * s, int i);                                                                                                                                                                                             
+                                  ^
+hello_world_small.cpp:523:44: error: expected primary-expression before 'int'
+   static void qqoutput(FILEPOINT char * s, int i);                                                                                                                                                                                             
+                                            ^
+hello_world_small.cpp:136:19: error: variable or field 'qqoutput2' declared void
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:524:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput2(FILEPOINT char * s, int i, int j);                                                                                                                                                                                     
+                         ^
+hello_world_small.cpp:136:19: error: 'FILE' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:524:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput2(FILEPOINT char * s, int i, int j);                                                                                                                                                                                     
+                         ^
+hello_world_small.cpp:136:26: error: 'f' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                          ^
+hello_world_small.cpp:524:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput2(FILEPOINT char * s, int i, int j);                                                                                                                                                                                     
+                         ^
+hello_world_small.cpp:524:35: error: expected primary-expression before 'char'
+   static void qqoutput2(FILEPOINT char * s, int i, int j);                                                                                                                                                                                     
+                                   ^
+hello_world_small.cpp:524:45: error: expected primary-expression before 'int'
+   static void qqoutput2(FILEPOINT char * s, int i, int j);                                                                                                                                                                                     
+                                             ^
+hello_world_small.cpp:524:52: error: expected primary-expression before 'int'
+   static void qqoutput2(FILEPOINT char * s, int i, int j);                                                                                                                                                                                     
+                                                    ^
+hello_world_small.cpp:136:19: error: variable or field 'qqoutput3' declared void
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:525:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput3(FILEPOINT char * s, int i, int j, int k);                                                                                                                                                                              
+                         ^
+hello_world_small.cpp:136:19: error: 'FILE' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:525:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput3(FILEPOINT char * s, int i, int j, int k);                                                                                                                                                                              
+                         ^
+hello_world_small.cpp:136:26: error: 'f' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                          ^
+hello_world_small.cpp:525:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput3(FILEPOINT char * s, int i, int j, int k);                                                                                                                                                                              
+                         ^
+hello_world_small.cpp:525:35: error: expected primary-expression before 'char'
+   static void qqoutput3(FILEPOINT char * s, int i, int j, int k);                                                                                                                                                                              
+                                   ^
+hello_world_small.cpp:525:45: error: expected primary-expression before 'int'
+   static void qqoutput3(FILEPOINT char * s, int i, int j, int k);                                                                                                                                                                              
+                                             ^
+hello_world_small.cpp:525:52: error: expected primary-expression before 'int'
+   static void qqoutput3(FILEPOINT char * s, int i, int j, int k);                                                                                                                                                                              
+                                                    ^
+hello_world_small.cpp:525:59: error: expected primary-expression before 'int'
+   static void qqoutput3(FILEPOINT char * s, int i, int j, int k);                                                                                                                                                                              
+                                                           ^
+hello_world_small.cpp:136:19: error: variable or field 'qqoutput4' declared void
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:526:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                         ^
+hello_world_small.cpp:136:19: error: 'FILE' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:526:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                         ^
+hello_world_small.cpp:136:26: error: 'f' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                          ^
+hello_world_small.cpp:526:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                         ^
+hello_world_small.cpp:526:35: error: expected primary-expression before 'char'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                                   ^
+hello_world_small.cpp:526:45: error: expected primary-expression before 'int'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                                             ^
+hello_world_small.cpp:526:52: error: expected primary-expression before 'int'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                                                    ^
+hello_world_small.cpp:526:59: error: expected primary-expression before 'int'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                                                           ^
+hello_world_small.cpp:526:66: error: expected primary-expression before 'int'
+   static void qqoutput4(FILEPOINT char * s, int i, int j, int k, int l);                                                                                                                                                                       
+                                                                  ^
+hello_world_small.cpp:136:19: error: variable or field 'qqoutput0' declared void
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:527:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput0(FILEPOINT char * s);                                                                                                                                                                                                   
+                         ^
+hello_world_small.cpp:136:19: error: 'FILE' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                   ^
+hello_world_small.cpp:527:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput0(FILEPOINT char * s);                                                                                                                                                                                                   
+                         ^
+hello_world_small.cpp:136:26: error: 'f' was not declared in this scope
+ #define FILEPOINT FILE * f,                                                                                                                                                                                                                    
+                          ^
+hello_world_small.cpp:527:25: note: in expansion of macro 'FILEPOINT'
+   static void qqoutput0(FILEPOINT char * s);                                                                                                                                                                                                   
+                         ^
+hello_world_small.cpp:527:35: error: expected primary-expression before 'char'
+   static void qqoutput0(FILEPOINT char * s);                                                                                                                                                                                                   
+                                   ^
+hello_world_small.cpp: In function 'int main()':
+hello_world_small.cpp:632:7: warning: unused variable 'zzqqzs' [-Wunused-variable]
+   int zzqqzs = ((int)(bitmapstruct.element0 |= (1 <<  0))); /* 32a */
+       ^
+hello_world_small.cpp:618:7: warning: unused variable 'mainzz' [-Wunused-variable]
+   int mainzz = hello_world_small_176zqqzqz1                                                                         (); /* 46 */
+       ^
+hello_world_small.cpp: In function 'void qqqqinitialise(int)':
+hello_world_small.cpp:870:18: warning: unused variable 'i' [-Wunused-variable]
+     unsigned int i;                                                                                                                                                                                                                            
+                  ^
+hello_world_small.cpp: In function 'void qqqzzuploadmcdc(int)':
+hello_world_small.cpp:909:10: error: 'hello_world_small_176zzhfil' was not declared in this scope
+         (hello_world_small_176zzhfil,                                                                                                                                                                                                          
+          ^
+hello_world_small.cpp: In function 'int zqqzqz1()':
+hello_world_small.cpp:1017:9: error: 'hello_world_small_176zzhfil' was not declared in this scope
+         hello_world_small_176zzhfil = fopen("history.exh","w"); /* 3 */                                                                                                                                                                        
+         ^
+hello_world_small.cpp:1021:9: error: 'hello_world_small_176zzhfil' was not declared in this scope
+         hello_world_small_176zzhfil = fopen("history.exh","a"); /* 4 */                                                                                                                                                                        
+         ^
+hello_world_small.cpp: In function 'void upload_execution_history()':
+hello_world_small.cpp:1088:21: error: 'ldra_port_close' was not declared in this scope
+     ldra_port_close();                                                                                                                                                                                                                         
+                     ^
+hello_world_small.cpp: In function 'void qqqupload()':
+hello_world_small.cpp:1121:29: error: 'ldra_send_start_message' was not declared in this scope
+     ldra_send_start_message();                                                                                                                                                                                                                 
+                             ^
+hello_world_small.cpp:1125:32: error: 'hello_world_small_176zzhfil' was not declared in this scope
+ #define ELEMENT(N) qqbmsoutput(hello_world_small_176zzhfil,"%8d", bitmapstruct.element##N);                                                                                                                                                    
+                                ^
+hello_world_small_176zbelem.def:2:2: note: in expansion of macro 'ELEMENT'
+  ELEMENT(           0 )
+  ^
+hello_world_small.cpp:1120:9: warning: unused variable 'i' [-Wunused-variable]
+     int i;                                                                                                                                                                                                                                     
+         ^
+hello_world_small.cpp: At global scope:
+hello_world_small.cpp:472:14: warning: 'qqqisinitialised' defined but not used [-Wunused-variable]
+   static int qqqisinitialised = 0;                                                                                                                                                                                                             
+              ^
+hello_world_small.cpp:508:24: warning: 'qqqzzglobflag' defined but not used [-Wunused-variable]
+   static unsigned char qqqzzglobflag = 0;                                                                                                                                                                                                      
+                        ^
+hello_world_small.cpp:756:14: warning: 'int qqswitchxx()' defined but not used [-Wunused-function]
+   static int qqswitchxx(qqnull_params)                                                                                                                                                                                                         
+              ^
+hello_world_small.cpp:773:14: warning: 'int qqswitchyy()' defined but not used [-Wunused-function]
+   static int qqswitchyy(qqnull_params)                                                                                                                                                                                                         
+              ^
+hello_world_small.cpp:790:14: warning: 'int uuswitchqq()' defined but not used [-Wunused-function]
+   static int uuswitchqq(qqnull_params)                                                                                                                                                                                                         
+              ^
+hello_world_small.cpp:983:14: warning: 'int hello_world_small_176zqqzqz()' defined but not used [-Wunused-function]
+   static int hello_world_small_176zqqzqz(qqnull_params)                                                                                                                                                                                        
+              ^
+hello_world_small.cpp:1168:14: warning: 'int hello_world_small_176zzdo17(int, int, int)' defined but not used [-Wunused-function]
+   static int hello_world_small_176zzdo17(                                                                                                                                                                                                      
+              ^
+hello_world_small.cpp:887:15: warning: 'void qqqbitmapreset()' defined but not used [-Wunused-function]
+   static void qqqbitmapreset()                                                                                                                                                                                                                 
+               ^
+hello_world_small.cpp:700:14: warning: 'int hello_world_small_176zscanf(char*)' defined but not used [-Wunused-function]
+   static int hello_world_small_176zscanf(char * qqscan_str)                                                                                                                                                                                    
+              ^
+hello_world_small.cpp:674:15: warning: 'qqqqone' defined but not used [-Wunused-variable]
+   static char qqqqone[]   = "%6d\n";           /* single point */                                                                                                                                                                              
+               ^
+hello_world_small.cpp:683:14: warning: 'qqqlastmcdc' defined but not used [-Wunused-variable]
+   static int qqqlastmcdc = 0;                                                                                                                                                                                                                  
+              ^
+hello_world_small.cpp:685:14: warning: 'paqqqmcdcstr' defined but not used [-Wunused-variable]
+   static int paqqqmcdcstr;                                                                                                                                                                                                                     
+              ^
+hello_world_small.cpp:745:14: warning: 'int qqswitchgetyy()' defined but not used [-Wunused-function]
+   static int qqswitchgetyy(qqnull_params)                                                                                                                                                                                                      
+              ^
+hello_world_small.cpp:833:17: warning: 'void qqoutput2(FILE*, char*, int, int)' defined but not used [-Wunused-function]
+     static void qqoutput2(FILEPOINT char * s, int i, int j)                                                                                                                                                                                    
+                 ^
+make: *** [obj/default/hello_world_small.o] Error 1
